@@ -1,0 +1,926 @@
+{
+  "generator": {
+    "name": "World's Best Repo Book Generator",
+    "version": "1.0",
+    "generated_at": "2025-11-15T20:37:52.733860"
+  },
+  "repository": {
+    "name": "dbn-duckduck-goose",
+    "description": "Golang Web Service Example using Databento and DuckDB",
+    "remote_url": "http://local_proxy@127.0.0.1:62529/git/raminpapo/dbn-duckduck-goose",
+    "commit_sha": "f66b68b16cf9331d995477735cfd9337c778984d",
+    "scan_timestamp": "2025-11-15T20:37:52.756599"
+  },
+  "statistics": {
+    "repo_files_count": 37,
+    "repo_folders_count": 10,
+    "docs_files_count": 100,
+    "docs_md_files": 98,
+    "total_bytes_written": 303732,
+    "estimated_word_count": 20358
+  },
+  "repository_files": [
+    {
+      "path": ".dockerignore",
+      "size": 80,
+      "modified": "2025-11-15T20:29:32.151737"
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1818,
+      "modified": "2025-11-15T20:29:32.151737"
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 471,
+      "modified": "2025-11-15T20:29:32.152737"
+    },
+    {
+      "path": ".gitignore",
+      "size": 77,
+      "modified": "2025-11-15T20:29:32.152737"
+    },
+    {
+      "path": ".vscode/launch.json",
+      "size": 957,
+      "modified": "2025-11-15T20:29:32.152737"
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2644,
+      "modified": "2025-11-15T20:29:32.152737"
+    },
+    {
+      "path": "LICENSE.txt",
+      "size": 1070,
+      "modified": "2025-11-15T20:29:32.152737"
+    },
+    {
+      "path": "README.md",
+      "size": 5504,
+      "modified": "2025-11-15T20:29:32.153737"
+    },
+    {
+      "path": "Taskfile.yml",
+      "size": 1995,
+      "modified": "2025-11-15T20:29:32.153737"
+    },
+    {
+      "path": "etc/dbeqbasic.SPY.html",
+      "size": 71232,
+      "modified": "2025-11-15T20:29:32.154737"
+    },
+    {
+      "path": "etc/dbeqbasic.SPY.png",
+      "size": 229514,
+      "modified": "2025-11-15T20:29:32.156737"
+    },
+    {
+      "path": "etc/swagger_console.png",
+      "size": 234726,
+      "modified": "2025-11-15T20:29:32.158737"
+    },
+    {
+      "path": "folder_index_gen.py",
+      "size": 11231,
+      "modified": "2025-11-15T20:35:40.998696"
+    },
+    {
+      "path": "global_docs_gen.py",
+      "size": 17488,
+      "modified": "2025-11-15T20:37:04.024137"
+    },
+    {
+      "path": "go.mod",
+      "size": 3865,
+      "modified": "2025-11-15T20:29:32.159737"
+    },
+    {
+      "path": "go.sum",
+      "size": 22783,
+      "modified": "2025-11-15T20:29:32.159737"
+    },
+    {
+      "path": "handlers/get_charts.go",
+      "size": 13519,
+      "modified": "2025-11-15T20:29:32.159737"
+    },
+    {
+      "path": "handlers/get_last_trades.go",
+      "size": 7453,
+      "modified": "2025-11-15T20:29:32.160737"
+    },
+    {
+      "path": "handlers/get_ohlcv.go",
+      "size": 3519,
+      "modified": "2025-11-15T20:29:32.160737"
+    },
+    {
+      "path": "handlers/js/tooltipFormatter.js",
+      "size": 1887,
+      "modified": "2025-11-15T20:29:32.160737"
+    },
+    {
+      "path": "handlers/js/tooltipPositioner.js",
+      "size": 299,
+      "modified": "2025-11-15T20:29:32.160737"
+    },
+    {
+      "path": "handlers/js/xAxisFormatter.js",
+      "size": 92,
+      "modified": "2025-11-15T20:29:32.161737"
+    },
+    {
+      "path": "handlers/js/zoomLabelFormatter.js",
+      "size": 422,
+      "modified": "2025-11-15T20:29:32.161737"
+    },
+    {
+      "path": "handlers/registry.go",
+      "size": 1833,
+      "modified": "2025-11-15T20:29:32.161737"
+    },
+    {
+      "path": "livedata/client.go",
+      "size": 9385,
+      "modified": "2025-11-15T20:29:32.161737"
+    },
+    {
+      "path": "livedata/config.go",
+      "size": 584,
+      "modified": "2025-11-15T20:29:32.162737"
+    },
+    {
+      "path": "main.go",
+      "size": 5896,
+      "modified": "2025-11-15T20:29:32.162737"
+    },
+    {
+      "path": "manifest_gen.py",
+      "size": 6330,
+      "modified": "2025-11-15T20:37:45.074355"
+    },
+    {
+      "path": "middleware/cors.go",
+      "size": 742,
+      "modified": "2025-11-15T20:29:32.162737"
+    },
+    {
+      "path": "middleware/db.go",
+      "size": 1638,
+      "modified": "2025-11-15T20:29:32.162737"
+    },
+    {
+      "path": "middleware/logger.go",
+      "size": 2340,
+      "modified": "2025-11-15T20:29:32.163737"
+    },
+    {
+      "path": "middleware/sql/candles.sql.tpl",
+      "size": 823,
+      "modified": "2025-11-15T20:29:32.163737"
+    },
+    {
+      "path": "middleware/sql/extensions.sql.tpl",
+      "size": 60,
+      "modified": "2025-11-15T20:29:32.163737"
+    },
+    {
+      "path": "middleware/sql/trades.sql.tpl",
+      "size": 388,
+      "modified": "2025-11-15T20:29:32.163737"
+    },
+    {
+      "path": "middleware/util.go",
+      "size": 1940,
+      "modified": "2025-11-15T20:29:32.164737"
+    },
+    {
+      "path": "repo_book_gen.py",
+      "size": 15561,
+      "modified": "2025-11-15T20:34:36.636354"
+    },
+    {
+      "path": "sdk/types.go",
+      "size": 1729,
+      "modified": "2025-11-15T20:29:32.164737"
+    }
+  ],
+  "documentation_files": [
+    {
+      "path": ".dockerignore_docs.md",
+      "size": 480,
+      "checksum": "f05d8bc1d7e0378eca3f22b1268c1b1f4d2557fe66b6fed2670acd2f228fd6f1",
+      "modified": "2025-11-15T20:34:43.866392"
+    },
+    {
+      "path": ".dockerignore_kw.md",
+      "size": 59,
+      "checksum": "e4587e28774e4fab8498fbed4848d391e9bf03abbd457c27f66adf7a8553d2bb",
+      "modified": "2025-11-15T20:34:43.867393"
+    },
+    {
+      "path": ".github/workflows/doc.md",
+      "size": 282,
+      "checksum": "a9ec406cb20d69a9cc57157d8994e94d70f0e7fdbcde296a547427ddb6443bd2",
+      "modified": "2025-11-15T20:35:54.276766"
+    },
+    {
+      "path": ".github/workflows/docker.yml_docs.md",
+      "size": 2304,
+      "checksum": "7e83bb459730995588f6e281b242e94866b07e3e07d217a0b08bd83c633d69f8",
+      "modified": "2025-11-15T20:34:43.867393"
+    },
+    {
+      "path": ".github/workflows/docker.yml_kw.md",
+      "size": 56,
+      "checksum": "a8686c20b4b850ac3dc23978330e5039dba3df9eb2a944edba4b2566531df9a2",
+      "modified": "2025-11-15T20:34:43.868392"
+    },
+    {
+      "path": ".github/workflows/go.yml_docs.md",
+      "size": 934,
+      "checksum": "dae9e574074ed0f5c481f5c3bcc9154930fd708fd33fedf8795846083809a969",
+      "modified": "2025-11-15T20:34:43.868392"
+    },
+    {
+      "path": ".github/workflows/go.yml_kw.md",
+      "size": 52,
+      "checksum": "26f0ce25b6532a02ed5c89d65c676e6b3e84087ea22a8b2eec9e7d0b53326ee7",
+      "modified": "2025-11-15T20:34:43.868392"
+    },
+    {
+      "path": ".github/workflows/index.md",
+      "size": 205,
+      "checksum": "86a89130a4169693227b4415236746bec3fee784b0dc88f23dc2555ceb483842",
+      "modified": "2025-11-15T20:35:54.275766"
+    },
+    {
+      "path": ".github/workflows/sub.md",
+      "size": 188,
+      "checksum": "0c14a13dae72392290c0c36b385ab2627ac9fee397cb57d3856239ca117ccbb7",
+      "modified": "2025-11-15T20:35:54.278766"
+    },
+    {
+      "path": ".gitignore_docs.md",
+      "size": 471,
+      "checksum": "b3edd9218c44e669c3756e719099b216c422fbcbdb3305e88e42f43fc8a54d01",
+      "modified": "2025-11-15T20:34:43.869392"
+    },
+    {
+      "path": ".gitignore_kw.md",
+      "size": 56,
+      "checksum": "8788f9a969537fe0f7f8f37602f846514c444bc48f18539c473ba510c56edd6a",
+      "modified": "2025-11-15T20:34:43.869392"
+    },
+    {
+      "path": ".progress.log",
+      "size": 3752,
+      "checksum": "f09145e7e2bde035329cbe81df47e4d6b0ffbe4d5c68db83a69f02701a40c171",
+      "modified": "2025-11-15T20:34:43.938393"
+    },
+    {
+      "path": ".vscode/launch.json_docs.md",
+      "size": 1363,
+      "checksum": "ef337d8f401b1db2957ae9a6f8c32f6ed7e02104161e9db13bf2e322125aa002",
+      "modified": "2025-11-15T20:34:43.869392"
+    },
+    {
+      "path": ".vscode/launch.json_kw.md",
+      "size": 57,
+      "checksum": "07720370b27e5d1d1fa16352871b231fce1177231f9f741f300d95dfba53c3dc",
+      "modified": "2025-11-15T20:34:43.870392"
+    },
+    {
+      "path": "Dockerfile_docs.md",
+      "size": 3042,
+      "checksum": "85ecdaa4c482220675c96c1670061be3472030c15e9e97e1f590e26398e52496",
+      "modified": "2025-11-15T20:34:43.870392"
+    },
+    {
+      "path": "Dockerfile_kw.md",
+      "size": 56,
+      "checksum": "aab054e90378b7ead192e559225d481331b95fef5a7e30e60d95a7f18b19fee5",
+      "modified": "2025-11-15T20:34:43.870392"
+    },
+    {
+      "path": "LICENSE.txt_docs.md",
+      "size": 1470,
+      "checksum": "5e9bf74f75879b2afbc56bd7201fd305ae35b8f990413025e4cceaacb5d624eb",
+      "modified": "2025-11-15T20:34:43.871392"
+    },
+    {
+      "path": "LICENSE.txt_kw.md",
+      "size": 57,
+      "checksum": "d8e63bf12c2ce408543692bca9a4ca81fb871c1f90d9ca6592fd17a67165cff8",
+      "modified": "2025-11-15T20:34:43.871392"
+    },
+    {
+      "path": "README.md_docs.md",
+      "size": 5920,
+      "checksum": "2e817908fb5e4a6fc35ce6c6c83c10e1fa69eeda7c2ca1834fa9ef10dbd3186c",
+      "modified": "2025-11-15T20:34:43.872392"
+    },
+    {
+      "path": "README.md_kw.md",
+      "size": 55,
+      "checksum": "814e517e77d65aeb23ba2b8e4c39c536a2665e73f8f199c463bb40c4ab460ca0",
+      "modified": "2025-11-15T20:34:43.872392"
+    },
+    {
+      "path": "README_docs.md",
+      "size": 16411,
+      "checksum": "428f19d4c8450e94348544ee7a073b065a7df790cc26307721d28387bbe5967e",
+      "modified": "2025-11-15T20:32:31.268688"
+    },
+    {
+      "path": "README_kw.md",
+      "size": 12200,
+      "checksum": "5c59a7c58b854cee291f765ded8b8a1733922f149b2aa49983d1d689638ca9ab",
+      "modified": "2025-11-15T20:33:22.163959"
+    },
+    {
+      "path": "Taskfile.yml_docs.md",
+      "size": 2454,
+      "checksum": "01647177d53d56f2a601ad5369d960ae06d7ba591b8027ed58a1a73fcde72722",
+      "modified": "2025-11-15T20:34:43.873392"
+    },
+    {
+      "path": "Taskfile.yml_kw.md",
+      "size": 58,
+      "checksum": "f56034f6dffa8ca9f4c69ededa23aa444eaaab0d8cac8ada38a1f55d4f45862e",
+      "modified": "2025-11-15T20:34:43.873392"
+    },
+    {
+      "path": "comprehensive_book.md",
+      "size": 11655,
+      "checksum": "1ababec237d5ad9b6d08f4aa0625f834c8c5f959fe10b00fd3107deb1d89e729",
+      "modified": "2025-11-15T20:37:11.564177"
+    },
+    {
+      "path": "doc.md",
+      "size": 294,
+      "checksum": "96f8d43b6579526dcb3b31bc5237402f7aca7547097a8d4ba66c5a6ad7518146",
+      "modified": "2025-11-15T20:35:54.267766"
+    },
+    {
+      "path": "etc/dbeqbasic.SPY.html_docs.md",
+      "size": 71651,
+      "checksum": "be957e55058707613e918ad2ee080709af540e9b794cbeddbe6a461ef3d00e25",
+      "modified": "2025-11-15T20:34:43.876392"
+    },
+    {
+      "path": "etc/dbeqbasic.SPY.html_kw.md",
+      "size": 917,
+      "checksum": "95f652c45e5eaba7619be4c4a13270a6d56d12de76242e326648aeabd2a59442",
+      "modified": "2025-11-15T20:34:43.879392"
+    },
+    {
+      "path": "etc/dbeqbasic.SPY.png_docs.md",
+      "size": 391,
+      "checksum": "051651e2430a2fd69dbb76126aa5459cbc3db4788ec909f12cbc5d7e59a635e3",
+      "modified": "2025-11-15T20:34:43.880393"
+    },
+    {
+      "path": "etc/doc.md",
+      "size": 268,
+      "checksum": "9e39333796eaee9b467a31ed263232472aa83301270cd8f03908e62b301fd517",
+      "modified": "2025-11-15T20:35:54.280766"
+    },
+    {
+      "path": "etc/index.md",
+      "size": 268,
+      "checksum": "0ac879a499007bc853d22f2ed48b00875459381c6d16aa9c52f3a4f6c6e1a6c4",
+      "modified": "2025-11-15T20:35:54.279766"
+    },
+    {
+      "path": "etc/sub.md",
+      "size": 497,
+      "checksum": "5c49632b49b04fec417633ee2fafca4e4938e11520869c4a5aad21945aec2dcc",
+      "modified": "2025-11-15T20:35:54.281766"
+    },
+    {
+      "path": "etc/swagger_console.png_docs.md",
+      "size": 395,
+      "checksum": "51ccd88510468da519eddf11bb14576c2dcfee6d5c1f017d0f7475e4b17fd10b",
+      "modified": "2025-11-15T20:34:43.880393"
+    },
+    {
+      "path": "go.mod_docs.md",
+      "size": 4255,
+      "checksum": "377a8c8bd1bcc89733efbf24454640c46fa333090f9583bbf55c3b5b78f66a0c",
+      "modified": "2025-11-15T20:34:43.881392"
+    },
+    {
+      "path": "go.mod_kw.md",
+      "size": 52,
+      "checksum": "d0c157a41bc3e8498a647f3a1dd053a1f63c875f455f6c7907d6e60acfec59bf",
+      "modified": "2025-11-15T20:34:43.881392"
+    },
+    {
+      "path": "go.sum_docs.md",
+      "size": 23175,
+      "checksum": "d11f5ab71dd8c4792d93e9caea34b5f0c2e6253705fe4e08bbfcedcc06e42862",
+      "modified": "2025-11-15T20:34:43.882392"
+    },
+    {
+      "path": "go.sum_kw.md",
+      "size": 52,
+      "checksum": "f0ad6388a3f5ac5813cae911879d10fe5240b3baf5cbd78246c20d5931da2021",
+      "modified": "2025-11-15T20:34:43.882392"
+    },
+    {
+      "path": "handlers/doc.md",
+      "size": 271,
+      "checksum": "147692453d8b5c141ac5353bd3deb3e4d895aba475a2a95d6711d0c53475da9b",
+      "modified": "2025-11-15T20:35:54.283766"
+    },
+    {
+      "path": "handlers/get_charts.go_docs.md",
+      "size": 14430,
+      "checksum": "431dbf779314b7146f6cb1698e7fc0178be09f944e8508074125f880ceb75357",
+      "modified": "2025-11-15T20:34:43.883393"
+    },
+    {
+      "path": "handlers/get_charts.go_kw.md",
+      "size": 1487,
+      "checksum": "e9c88ba5a834cb65bd0abddc7d2ebc88124f94b496a48ac1c808b315445de44e",
+      "modified": "2025-11-15T20:34:43.886393"
+    },
+    {
+      "path": "handlers/get_last_trades.go_docs.md",
+      "size": 8124,
+      "checksum": "1e58447a9f5d66ca3179937d35f5153e8e7acd6fc3d8f96bbd29152b769e1c76",
+      "modified": "2025-11-15T20:34:43.887393"
+    },
+    {
+      "path": "handlers/get_last_trades.go_kw.md",
+      "size": 1334,
+      "checksum": "c19f00a9f0e27ed2e4514854e4c54ca3e27f4132a0648dadb351d03fc4eda971",
+      "modified": "2025-11-15T20:34:43.888392"
+    },
+    {
+      "path": "handlers/get_ohlcv.go_docs.md",
+      "size": 4213,
+      "checksum": "4a42620f719e3f31e7a6e621937578ba1fb10444f6e1402ed262268647b20440",
+      "modified": "2025-11-15T20:34:43.888392"
+    },
+    {
+      "path": "handlers/get_ohlcv.go_kw.md",
+      "size": 738,
+      "checksum": "6a3d1ee8e808f669c81b88993dfd38163df1e79ead13d732c0969632b910b5b2",
+      "modified": "2025-11-15T20:34:43.889393"
+    },
+    {
+      "path": "handlers/index.md",
+      "size": 334,
+      "checksum": "5e7a2a4369bce34f945281d1b89d0d39daf641f3ff5f3152d416c8b236b7a127",
+      "modified": "2025-11-15T20:35:54.282766"
+    },
+    {
+      "path": "handlers/js/doc.md",
+      "size": 275,
+      "checksum": "9d57f42f195c4b6effa654a2602ec2e44f8fae53d5302a3ff6cb2577bc0ba492",
+      "modified": "2025-11-15T20:35:54.289766"
+    },
+    {
+      "path": "handlers/js/index.md",
+      "size": 345,
+      "checksum": "69ef5d05980a489eb6f58463d149f2da609ce4d03d5676a8ba55c1f6134fb29f",
+      "modified": "2025-11-15T20:35:54.287766"
+    },
+    {
+      "path": "handlers/js/sub.md",
+      "size": 566,
+      "checksum": "f40847dfe47bd6cab1fa09bbe1fa7e0e76cc5503a968b48f4d675f373c192664",
+      "modified": "2025-11-15T20:35:54.291766"
+    },
+    {
+      "path": "handlers/js/tooltipFormatter.js_docs.md",
+      "size": 2359,
+      "checksum": "59b09776c3489f595793ed721bda0949cb94211b02eb6682868be9dbd7e50cad",
+      "modified": "2025-11-15T20:34:43.889393"
+    },
+    {
+      "path": "handlers/js/tooltipFormatter.js_kw.md",
+      "size": 585,
+      "checksum": "17716fda80f112747f3f79680d0e4d28322dc25c62cfab884c3225935e90aca1",
+      "modified": "2025-11-15T20:34:43.890393"
+    },
+    {
+      "path": "handlers/js/tooltipPositioner.js_docs.md",
+      "size": 744,
+      "checksum": "4f2cf1a00cf696f9cb9d6df48bff3a48b8b9eff33195d8cfc972667176053503",
+      "modified": "2025-11-15T20:34:43.890393"
+    },
+    {
+      "path": "handlers/js/tooltipPositioner.js_kw.md",
+      "size": 271,
+      "checksum": "81e32f3ffb07b4230f744a528a7dd15b93220edcf0c556fde25decfa751f3b2c",
+      "modified": "2025-11-15T20:34:43.891392"
+    },
+    {
+      "path": "handlers/js/xAxisFormatter.js_docs.md",
+      "size": 530,
+      "checksum": "0ea5881b078e19847017db596c2dd52d1f909361082914542a452a5800eed580",
+      "modified": "2025-11-15T20:34:43.891392"
+    },
+    {
+      "path": "handlers/js/xAxisFormatter.js_kw.md",
+      "size": 63,
+      "checksum": "1fa0db508e8e83cf129c0e8a9a0d9538e2fcdc8e7e4672c2a4342c78ab42b155",
+      "modified": "2025-11-15T20:34:43.891392"
+    },
+    {
+      "path": "handlers/js/zoomLabelFormatter.js_docs.md",
+      "size": 870,
+      "checksum": "6a4192404a1078fa89c70acb70e98e7a8871df0c898908c3631c2cc9b62fabc9",
+      "modified": "2025-11-15T20:34:43.892393"
+    },
+    {
+      "path": "handlers/js/zoomLabelFormatter.js_kw.md",
+      "size": 554,
+      "checksum": "19cab007dd85b4a395bb9a9e5a1706ca12a3ac10d8e7d5db24cbf24f5e511c80",
+      "modified": "2025-11-15T20:34:43.910393"
+    },
+    {
+      "path": "handlers/registry.go_docs.md",
+      "size": 2575,
+      "checksum": "b637458a394da6766ab78ebdfbf718e6e2ef3de8ebce821fb56750bf3b3d721f",
+      "modified": "2025-11-15T20:34:43.910393"
+    },
+    {
+      "path": "handlers/registry.go_kw.md",
+      "size": 490,
+      "checksum": "862d3f7eac2379ff2d8022b666236b0ea1bf7798692783c471321aa0b345b808",
+      "modified": "2025-11-15T20:34:43.911393"
+    },
+    {
+      "path": "handlers/sub.md",
+      "size": 1837,
+      "checksum": "e9e9807b04851386733c92e1de3d0a137a1b558dcdf9f4033c88c21167bde740",
+      "modified": "2025-11-15T20:35:54.286766"
+    },
+    {
+      "path": "index.md",
+      "size": 1573,
+      "checksum": "c197412eb1d2c026c08f77b8576a7e96a022782aa8cfb589afd8c33417319a89",
+      "modified": "2025-11-15T20:37:11.548177"
+    },
+    {
+      "path": "keywords.md",
+      "size": 9796,
+      "checksum": "acd70d9dce23f777aa5a8d9485d60e2c6df57a33ca60391a87ad8c8f007c1835",
+      "modified": "2025-11-15T20:37:11.527177"
+    },
+    {
+      "path": "livedata/client.go_docs.md",
+      "size": 10160,
+      "checksum": "43e79fb6c6208a724cd6c8562d8d4c8fc6a56c5383c70047272dcff98cf6a368",
+      "modified": "2025-11-15T20:34:43.912393"
+    },
+    {
+      "path": "livedata/client.go_kw.md",
+      "size": 724,
+      "checksum": "fea4cf1dd8c9d0fb641d29c4661f1c0b8d62dda2dc492d34e004d3be339ab0cb",
+      "modified": "2025-11-15T20:34:43.913393"
+    },
+    {
+      "path": "livedata/config.go_docs.md",
+      "size": 1077,
+      "checksum": "d544a489512136480c74468d9da8f5b39504a608367868176548e32f84ab0240",
+      "modified": "2025-11-15T20:34:43.913393"
+    },
+    {
+      "path": "livedata/config.go_kw.md",
+      "size": 336,
+      "checksum": "9f2fb4abdbf6e0dd837d7884de47f8600934d7ded187c48ac510e4fb9a2bbdaa",
+      "modified": "2025-11-15T20:34:43.914393"
+    },
+    {
+      "path": "livedata/doc.md",
+      "size": 269,
+      "checksum": "2eeda954cc84bc03e32850e6cb95b047a4358b83c59753a0c3a0cb8969a714a4",
+      "modified": "2025-11-15T20:35:54.292766"
+    },
+    {
+      "path": "livedata/index.md",
+      "size": 191,
+      "checksum": "7b45cd43c1c7ac3589c4d846a23fe725458c2e2288c9220ea0ab1ab90c4b60fd",
+      "modified": "2025-11-15T20:35:54.292766"
+    },
+    {
+      "path": "livedata/sub.md",
+      "size": 474,
+      "checksum": "afae132d8bbcf93dfca19a8fe22f7900eb6e986108683b3ac713bcb039bc6d82",
+      "modified": "2025-11-15T20:35:54.294766"
+    },
+    {
+      "path": "main.go_docs.md",
+      "size": 6887,
+      "checksum": "bacaf840b622aeee624188cbdaff4db74a4efa9b9f305f6ad0de528baec4dbbb",
+      "modified": "2025-11-15T20:34:43.915393"
+    },
+    {
+      "path": "main.go_kw.md",
+      "size": 916,
+      "checksum": "6cbd5a95315cccd051d68f6508ab0960bbbd1b25cfd346e979ab5ab51d28d6db",
+      "modified": "2025-11-15T20:34:43.916393"
+    },
+    {
+      "path": "middleware/cors.go_docs.md",
+      "size": 1266,
+      "checksum": "f8ebc9ac89338a775421d760c28b36fcd0dcc09ec36ba5a6ef7520013141f1f0",
+      "modified": "2025-11-15T20:34:43.917393"
+    },
+    {
+      "path": "middleware/cors.go_kw.md",
+      "size": 482,
+      "checksum": "6002d4e53c1dee18d6299dd8c5a1d9e787fe073ed6d0bbbbd15db3b0e2bd38f7",
+      "modified": "2025-11-15T20:34:43.918393"
+    },
+    {
+      "path": "middleware/db.go_docs.md",
+      "size": 2245,
+      "checksum": "625dd6b1c2e82d5e70f71f3a42ebfdec5e7fdc1712887c0d557fe619cef633b5",
+      "modified": "2025-11-15T20:34:43.919393"
+    },
+    {
+      "path": "middleware/db.go_kw.md",
+      "size": 826,
+      "checksum": "26243432c2e9440380140af097f987edae5cee082b8b090e0051b041cfa60038",
+      "modified": "2025-11-15T20:34:43.921393"
+    },
+    {
+      "path": "middleware/doc.md",
+      "size": 288,
+      "checksum": "d6dfa4bd25bba98c11c91ef23e476684ae8016d9294d7e152acacd77ba3d2398",
+      "modified": "2025-11-15T20:35:54.296767"
+    },
+    {
+      "path": "middleware/index.md",
+      "size": 288,
+      "checksum": "fefaa8d6d17810aab99622744aaaffa0fb8ab7fa4d1021df3fc6a5fed6060de7",
+      "modified": "2025-11-15T20:35:54.295766"
+    },
+    {
+      "path": "middleware/logger.go_docs.md",
+      "size": 2976,
+      "checksum": "72806dce86b895aea8568a62cd5355bc290072a665dcb06beda7752fb0996a7f",
+      "modified": "2025-11-15T20:34:43.922393"
+    },
+    {
+      "path": "middleware/logger.go_kw.md",
+      "size": 715,
+      "checksum": "ba836f305f060bc90f2f08d8132b23a8ba1a5e608d38b100f3b202964cbcff0a",
+      "modified": "2025-11-15T20:34:43.922393"
+    },
+    {
+      "path": "middleware/sql/candles.sql.tpl_docs.md",
+      "size": 1244,
+      "checksum": "cfa1aad4f45311bfa712243a2a9ce34057d7288579b2e1a4836237655b3ee122",
+      "modified": "2025-11-15T20:34:43.923393"
+    },
+    {
+      "path": "middleware/sql/candles.sql.tpl_kw.md",
+      "size": 61,
+      "checksum": "f399adb3b48bf8af0b5b96ed150e3bab2a30dbb0342a3a52561e46774da08018",
+      "modified": "2025-11-15T20:34:43.924393"
+    },
+    {
+      "path": "middleware/sql/doc.md",
+      "size": 279,
+      "checksum": "2a6411c8d96d1cd259cb5ebf11781dd771d3a10c3ee3d38dcba7956fd198bde5",
+      "modified": "2025-11-15T20:35:54.301766"
+    },
+    {
+      "path": "middleware/sql/extensions.sql.tpl_docs.md",
+      "size": 485,
+      "checksum": "dbb2701baf63fe05ec8f3f1818f37de815724db2cde6bfe4c93b8b4e2a821651",
+      "modified": "2025-11-15T20:34:43.925393"
+    },
+    {
+      "path": "middleware/sql/extensions.sql.tpl_kw.md",
+      "size": 64,
+      "checksum": "a9e3071852d5e3ac02f36b429664ac8048687fec23329868bce7c5ab966cb4d8",
+      "modified": "2025-11-15T20:34:43.925393"
+    },
+    {
+      "path": "middleware/sql/index.md",
+      "size": 276,
+      "checksum": "3a666057443bd6d87e97ab5cea0b8a50baf0e3f1e26c31055e3296af26c0e240",
+      "modified": "2025-11-15T20:35:54.300766"
+    },
+    {
+      "path": "middleware/sql/sub.md",
+      "size": 185,
+      "checksum": "fd5e2a270ef3cafa7a112303fedf60126984e533bff3d88d8d19543b0cf98447",
+      "modified": "2025-11-15T20:35:54.303766"
+    },
+    {
+      "path": "middleware/sql/trades.sql.tpl_docs.md",
+      "size": 807,
+      "checksum": "60faf000ba7f82a3a196692a25ea8aac63a8f9b1e3a8ceb01c57d855caff23db",
+      "modified": "2025-11-15T20:34:43.926393"
+    },
+    {
+      "path": "middleware/sql/trades.sql.tpl_kw.md",
+      "size": 60,
+      "checksum": "9f2aa01c7f7ddfaba9db2da18d0d21630a62e26b0dc30f0e899b80fc4127056b",
+      "modified": "2025-11-15T20:34:43.926393"
+    },
+    {
+      "path": "middleware/sub.md",
+      "size": 1096,
+      "checksum": "f4e9e4f910a27cdfbec61c8340546bf13d825298bb208c17b563cd1a8bcc7969",
+      "modified": "2025-11-15T20:35:54.299767"
+    },
+    {
+      "path": "middleware/util.go_docs.md",
+      "size": 2499,
+      "checksum": "2b99cb54761a0bcb5043e49333a22682c4dfd80fead5fd4a62badd8c86284e9f",
+      "modified": "2025-11-15T20:34:43.926393"
+    },
+    {
+      "path": "middleware/util.go_kw.md",
+      "size": 935,
+      "checksum": "082d12b46aa4870b664cc1e2f65330d6748d822bc68e876d3f81a2bcafc505ee",
+      "modified": "2025-11-15T20:34:43.927393"
+    },
+    {
+      "path": "repo_book_gen.py_docs.md",
+      "size": 16080,
+      "checksum": "3027fdfe473f4b078f082a2f41350fc46aed3c81b735703163af63665ed19098",
+      "modified": "2025-11-15T20:34:43.929393"
+    },
+    {
+      "path": "repo_book_gen.py_kw.md",
+      "size": 2176,
+      "checksum": "7eeccf476fd0fc96e27ca98bde1a899ab073b641e9c605b016f0b57f19ddc4bf",
+      "modified": "2025-11-15T20:34:43.936393"
+    },
+    {
+      "path": "sdk/doc.md",
+      "size": 259,
+      "checksum": "f9d273b3f79b958f6fb13d00436225c6c5ccacf4bcb5f8b2b51fa433c9b73d09",
+      "modified": "2025-11-15T20:35:54.304766"
+    },
+    {
+      "path": "sdk/index.md",
+      "size": 146,
+      "checksum": "284331be238431de236d38d62ac6e16cff8cb7fe7bfca5efafd37d7a6873f947",
+      "modified": "2025-11-15T20:35:54.304766"
+    },
+    {
+      "path": "sdk/sub.md",
+      "size": 234,
+      "checksum": "cedc629473414b56a616e2640bface46735cb3d5b37bc044812982a044d0f0c1",
+      "modified": "2025-11-15T20:35:54.305767"
+    },
+    {
+      "path": "sdk/types.go_docs.md",
+      "size": 2204,
+      "checksum": "db286175445adb1529b3d46824049cbd473eb2123c0ebb08d9c69869b786052b",
+      "modified": "2025-11-15T20:34:43.937393"
+    },
+    {
+      "path": "sdk/types.go_kw.md",
+      "size": 343,
+      "checksum": "f3952741438f487eb0fd731f0fb341672e359bff51ce012ff3abe9ba75d8fc47",
+      "modified": "2025-11-15T20:34:43.937393"
+    },
+    {
+      "path": "sub.md",
+      "size": 5674,
+      "checksum": "61277e3145e63c7dbfcedccb9ce946062215b824ec0cea40d1206bb4eddc4401",
+      "modified": "2025-11-15T20:35:54.274766"
+    },
+    {
+      "path": "swagger.json",
+      "size": 14590,
+      "checksum": "7d80a528ab7580bb6d80f3e0f0766b0d5da849eca6daf66ead90586b69aa5dd0",
+      "modified": "2025-11-15T20:29:32.153737"
+    },
+    {
+      "path": "verification_report.md",
+      "size": 3699,
+      "checksum": "ff70621c34157a7589842f068a14f6906bc8be9fb437c87c5f45fe8454a61234",
+      "modified": "2025-11-15T20:37:11.828178"
+    }
+  ],
+  "file_map": {
+    "per_file_docs": [
+      ".dockerignore_docs.md",
+      ".github/workflows/docker.yml_docs.md",
+      ".github/workflows/go.yml_docs.md",
+      ".gitignore_docs.md",
+      ".vscode/launch.json_docs.md",
+      "Dockerfile_docs.md",
+      "LICENSE.txt_docs.md",
+      "README.md_docs.md",
+      "README_docs.md",
+      "Taskfile.yml_docs.md",
+      "etc/dbeqbasic.SPY.html_docs.md",
+      "etc/dbeqbasic.SPY.png_docs.md",
+      "etc/swagger_console.png_docs.md",
+      "go.mod_docs.md",
+      "go.sum_docs.md",
+      "handlers/get_charts.go_docs.md",
+      "handlers/get_last_trades.go_docs.md",
+      "handlers/get_ohlcv.go_docs.md",
+      "handlers/js/tooltipFormatter.js_docs.md",
+      "handlers/js/tooltipPositioner.js_docs.md",
+      "handlers/js/xAxisFormatter.js_docs.md",
+      "handlers/js/zoomLabelFormatter.js_docs.md",
+      "handlers/registry.go_docs.md",
+      "livedata/client.go_docs.md",
+      "livedata/config.go_docs.md",
+      "main.go_docs.md",
+      "middleware/cors.go_docs.md",
+      "middleware/db.go_docs.md",
+      "middleware/logger.go_docs.md",
+      "middleware/sql/candles.sql.tpl_docs.md",
+      "middleware/sql/extensions.sql.tpl_docs.md",
+      "middleware/sql/trades.sql.tpl_docs.md",
+      "middleware/util.go_docs.md",
+      "repo_book_gen.py_docs.md",
+      "sdk/types.go_docs.md"
+    ],
+    "per_file_keywords": [
+      ".dockerignore_kw.md",
+      ".github/workflows/docker.yml_kw.md",
+      ".github/workflows/go.yml_kw.md",
+      ".gitignore_kw.md",
+      ".vscode/launch.json_kw.md",
+      "Dockerfile_kw.md",
+      "LICENSE.txt_kw.md",
+      "README.md_kw.md",
+      "README_kw.md",
+      "Taskfile.yml_kw.md",
+      "etc/dbeqbasic.SPY.html_kw.md",
+      "go.mod_kw.md",
+      "go.sum_kw.md",
+      "handlers/get_charts.go_kw.md",
+      "handlers/get_last_trades.go_kw.md",
+      "handlers/get_ohlcv.go_kw.md",
+      "handlers/js/tooltipFormatter.js_kw.md",
+      "handlers/js/tooltipPositioner.js_kw.md",
+      "handlers/js/xAxisFormatter.js_kw.md",
+      "handlers/js/zoomLabelFormatter.js_kw.md",
+      "handlers/registry.go_kw.md",
+      "livedata/client.go_kw.md",
+      "livedata/config.go_kw.md",
+      "main.go_kw.md",
+      "middleware/cors.go_kw.md",
+      "middleware/db.go_kw.md",
+      "middleware/logger.go_kw.md",
+      "middleware/sql/candles.sql.tpl_kw.md",
+      "middleware/sql/extensions.sql.tpl_kw.md",
+      "middleware/sql/trades.sql.tpl_kw.md",
+      "middleware/util.go_kw.md",
+      "repo_book_gen.py_kw.md",
+      "sdk/types.go_kw.md"
+    ],
+    "folder_indices": [
+      ".github/workflows/index.md",
+      "etc/index.md",
+      "handlers/index.md",
+      "handlers/js/index.md",
+      "index.md",
+      "livedata/index.md",
+      "middleware/index.md",
+      "middleware/sql/index.md",
+      "sdk/index.md"
+    ],
+    "folder_docs": [
+      ".github/workflows/doc.md",
+      "doc.md",
+      "etc/doc.md",
+      "handlers/doc.md",
+      "handlers/js/doc.md",
+      "livedata/doc.md",
+      "middleware/doc.md",
+      "middleware/sql/doc.md",
+      "sdk/doc.md"
+    ],
+    "folder_keywords": [
+      ".github/workflows/sub.md",
+      "etc/sub.md",
+      "handlers/js/sub.md",
+      "handlers/sub.md",
+      "livedata/sub.md",
+      "middleware/sql/sub.md",
+      "middleware/sub.md",
+      "sdk/sub.md",
+      "sub.md"
+    ]
+  },
+  "global_files": {
+    "index": "index.md",
+    "keywords": "keywords.md",
+    "comprehensive_book": "comprehensive_book.md",
+    "verification_report": "verification_report.md",
+    "manifest": "manifest.json",
+    "readme": "README.md"
+  }
+}
