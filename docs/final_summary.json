@@ -1,0 +1,50 @@
+{
+  "repo_source": "/home/user/dbn-duckduck-goose",
+  "repo_fingerprint": "f66b68b16cf9331d995477735cfd9337c778984d",
+  "repo_remote": "https://github.com/raminpapo/dbn-duckduck-goose",
+  "generation_date": "2025-11-15T20:37:52Z",
+  "files_scanned": 37,
+  "folders_scanned": 10,
+  "docs_created": 100,
+  "words_estimated": 20358,
+  "bytes_written": 303732,
+  "keywords_indexed": 282,
+  "broken_links": 14,
+  "errors": [],
+  "artifacts": {
+    "manifest": "docs/manifest.json",
+    "global_index": "docs/index.md",
+    "global_keywords": "docs/keywords.md",
+    "comprehensive_book": "docs/comprehensive_book.md",
+    "verification_report": "docs/verification_report.md",
+    "documentation_guide": "docs/README.md",
+    "progress_log": "docs/.progress.log"
+  },
+  "per_file_documentation": {
+    "docs_files": 66,
+    "keyword_files": 66
+  },
+  "per_folder_documentation": {
+    "index_files": 9,
+    "doc_files": 9,
+    "sub_files": 9
+  },
+  "generator": {
+    "name": "World's Best Repo Book Generator",
+    "version": "1.0",
+    "scripts": [
+      "repo_book_gen.py",
+      "folder_index_gen.py",
+      "global_docs_gen.py",
+      "manifest_gen.py"
+    ]
+  },
+  "commit": {
+    "branch": "claude/repo-book-generator-01FambaNo28bA3V2EaQPwexX",
+    "commit_sha": "a511638",
+    "pushed": true,
+    "remote_url": "http://127.0.0.1:62529/git/raminpapo/dbn-duckduck-goose"
+  },
+  "status": "COMPLETE",
+  "verification": "All tasks completed successfully. Documentation generated, verified, committed, and pushed to repository."
+}
